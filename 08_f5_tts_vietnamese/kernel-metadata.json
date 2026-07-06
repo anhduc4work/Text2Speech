@@ -1,7 +1,7 @@
 {
   "id": "dstudy213/t2s-f5-tts-vietnamese",
   "title": "T2S F5 TTS Vietnamese",
-  "code_file": "f5-tts-vietnamese.ipynb",
+  "code_file": "f5_tts_vietnamese.ipynb",
   "language": "python",
   "kernel_type": "notebook",
   "is_private": true,
