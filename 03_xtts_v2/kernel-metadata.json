@@ -1,6 +1,6 @@
 {
   "id": "dstudy213/xtts-v2-voice-cloning",
-  "title": "XTTS-v2: Voice Cloning from 6s Audio",
+  "title": "XTTS v2 Voice Cloning",
   "code_file": "xtts_v2_voice_cloning.ipynb",
   "language": "python",
   "kernel_type": "notebook",

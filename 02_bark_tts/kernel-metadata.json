@@ -1,6 +1,6 @@
 {
-  "id": "dstudy213/bark-multilingual-expressive-tts",
-  "title": "Bark: Multilingual & Expressive TTS",
+  "id": "dstudy213/bark-tts-multilingual-demo",
+  "title": "Bark TTS Multilingual Demo",
   "code_file": "bark_tts.ipynb",
   "language": "python",
   "kernel_type": "notebook",
