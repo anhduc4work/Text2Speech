@@ -1,0 +1,14 @@
+{
+  "id": "dstudy213/xtts-v2-finetune-custom-voice",
+  "title": "XTTS-v2 Fine-tuning: Train Your Own Voice",
+  "code_file": "xtts_finetune.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["luizfelipebjcosta/libri-tts-train-clean-100"],
+  "competition_sources": [],
+  "kernel_sources": []
+}
