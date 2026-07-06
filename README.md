@@ -11,7 +11,22 @@ Educational notebooks for learning TTS — all designed to run on **Kaggle GPU**
 | 03 | `03_xtts_v2/` | XTTS-v2 | Voice cloning from a 6-second audio clip |
 | 04 | `04_xtts_finetune/` | XTTS-v2 | Fine-tune on your own voice data |
 
-## Quick Start — Push to Kaggle via CLI
+## Kaggle Integration
+
+### MCP Server (preferred)
+
+This repo uses the **Kaggle MCP server** (`.mcp.json`) for agent-driven workflows.
+The agent can search datasets, models, notebooks, and manage content via MCP tools.
+
+```
+# .mcp.json connects to https://www.kaggle.com/mcp
+# MCP tools: search_datasets, search_notebooks, search_models, save_notebook, etc.
+```
+
+**MCP limitations**: The remote MCP endpoint currently has restricted permissions for
+kernel operations (`kernels.get` denied). For push/status/output, fall back to the CLI.
+
+### CLI Push (for notebook execution)
 
 Each project folder contains a `kernel-metadata.json` for direct CLI push:
 
@@ -19,11 +34,20 @@ Each project folder contains a `kernel-metadata.json` for direct CLI push:
 # Push any notebook to Kaggle (auto-selects GPU T4 x2)
 kaggle kernels push -p 01_parler_tts/
 
-# Or override accelerator on the fly
-kaggle kernels push -p 01_parler_tts/ --accelerator NvidiaTeslaT4
+# Check status
+kaggle kernels status dstudy213/parler-tts-control-voice-with-natural-language
+
+# Download output
+kaggle kernels output dstudy213/parler-tts-control-voice-with-natural-language -p ./output
 ```
 
 No manual UI steps needed — the agent handles everything automatically.
+
+### Priority Order
+
+1. **Kaggle MCP server** — search, discovery, notebook content operations
+2. **Kaggle CLI** — push, status, output (when MCP lacks permissions)
+3. **Kaggle Web UI** — last resort, manual inspection
 
 ## GPU Selection (kernel-metadata.json)
 
@@ -48,11 +72,19 @@ Available accelerators for the `machine_shape` field:
 | Feature | Parler-TTS | Bark | XTTS-v2 |
 |---------|-----------|------|---------|
 | Voice control | Text description | Presets | Reference audio |
-| Languages | English | 13+ | 17 |
+| Languages | English | 13+ | 17 (not Vietnamese) |
 | Voice cloning | No | No | Yes |
 | Expressiveness | Medium | High | Medium |
 | Speed | Fast | Slow | Slow |
 | Fine-tuning | Possible | No | Easy |
+
+## Kaggle Environment Notes
+
+- **Python**: 3.12 (Kaggle default as of 2026)
+- **Coqui TTS**: Use `pip install coqui-tts` (community fork), NOT `TTS==0.22.0` (Python <3.12 only)
+- **protobuf**: Must force-reinstall `protobuf>=5.26.1` after installing TTS packages (they pull in 4.x which breaks tensorflow)
+- **Coqui TOS**: Set `COQUI_TOS_AGREED=1` env var before importing TTS for batch mode
+- **Cross-lingual deps**: Chinese needs `pypinyin`, Japanese needs `cutlet`
 
 ## Kaggle Datasets Used
 
