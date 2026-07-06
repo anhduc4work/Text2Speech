@@ -1,6 +1,6 @@
 {
-  "id": "dstudy213/xtts-v2-finetune-voice",
-  "title": "XTTS v2 Finetune Voice",
+  "id": "dstudy213/t2s-xtts-finetune-2026jul",
+  "title": "T2S XTTS Finetune 2026Jul",
   "code_file": "xtts_finetune.ipynb",
   "language": "python",
   "kernel_type": "notebook",
