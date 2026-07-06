@@ -1,0 +1,14 @@
+{
+  "id": "dstudy213/t2s-vietnamese-tts-vixtts",
+  "title": "T2S Vietnamese TTS viXTTS",
+  "code_file": "vietnamese_tts.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

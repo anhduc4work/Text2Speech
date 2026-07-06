@@ -10,6 +10,7 @@ Educational notebooks for learning TTS — all designed to run on **Kaggle GPU**
 | 02 | `02_bark_tts/` | Bark (Suno) | Multilingual + expressive speech (laughs, singing) |
 | 03 | `03_xtts_v2/` | XTTS-v2 | Voice cloning from a 6-second audio clip |
 | 04 | `04_xtts_finetune/` | XTTS-v2 | Fine-tune on your own voice data |
+| 05 | `05_vietnamese_tts/` | viXTTS | Vietnamese TTS with voice cloning |
 
 ## Kaggle Integration
 
