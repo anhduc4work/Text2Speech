@@ -1,0 +1,15 @@
+{
+  "id": "dstudy213/t2s-facebook-mms-vietnamese",
+  "title": "T2S Facebook MMS Vietnamese",
+  "code_file": "facebook_mms_vi.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

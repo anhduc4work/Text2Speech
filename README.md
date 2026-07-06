@@ -11,6 +11,12 @@ Educational notebooks for learning TTS — all designed to run on **Kaggle GPU**
 | 03 | `03_xtts_v2/` | XTTS-v2 | Voice cloning from a 6-second audio clip |
 | 04 | `04_xtts_finetune/` | XTTS-v2 | Fine-tune on your own voice data |
 | 05 | `05_vietnamese_tts/` | viXTTS | Vietnamese TTS with voice cloning |
+| 06 | `06_edge_tts_vi/` | Edge TTS | Microsoft neural voices for Vietnamese (no GPU) |
+| 07 | `07_facebook_mms_vi/` | Facebook MMS | Lightweight Vietnamese TTS via HuggingFace |
+| 08 | `08_f5_tts_vietnamese/` | F5-TTS | Flow-matching Vietnamese TTS with voice cloning |
+| 09 | `09_vieneu_tts/` | VieNeu-TTS | Vietnamese-native TTS, 10K+ hours training |
+| 10 | `10_viet_tts/` | VietTTS | OpenAI-compatible Vietnamese TTS |
+| 11 | `11_melo_tts_vietnamese/` | MeloTTS | VITS2-based Vietnamese TTS |
 
 ## Kaggle Integration
 

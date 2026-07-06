@@ -1,0 +1,16 @@
+{
+  "id": "dstudy213/t2s-f5-tts-vietnamese",
+  "title": "T2S F5 TTS Vietnamese",
+  "code_file": "f5-tts-vietnamese.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

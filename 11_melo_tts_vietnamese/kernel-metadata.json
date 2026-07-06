@@ -1,0 +1,15 @@
+{
+  "id": "dstudy213/t2s-melo-tts-vietnamese",
+  "title": "T2S MeloTTS Vietnamese",
+  "code_file": "melo_tts_vietnamese.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

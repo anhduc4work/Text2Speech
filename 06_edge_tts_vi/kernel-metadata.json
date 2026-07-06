@@ -1,0 +1,16 @@
+{
+  "id": "dstudy213/t2s-edge-tts-vietnamese",
+  "title": "T2S Edge TTS Vietnamese",
+  "code_file": "edge_tts_vi.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "edge-tts",
+    "text-to-speech",
+    "vietnamese",
+    "microsoft"
+  ]
+}
