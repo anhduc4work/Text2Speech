@@ -1,6 +1,6 @@
 {
-  "id": "dstudy213/t2s-melotts-vietnamese-vits2",
-  "title": "T2S MeloTTS Vietnamese VITS2",
+  "id": "dstudy213/melotts-vi-community-port",
+  "title": "MeloTTS VI Community Port",
   "code_file": "melo_tts_vietnamese.ipynb",
   "language": "python",
   "kernel_type": "notebook",
