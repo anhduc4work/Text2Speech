@@ -1,6 +1,6 @@
 {
-  "id": "dstudy213/t2s-melo-tts-vietnamese",
-  "title": "T2S MeloTTS Vietnamese",
+  "id": "dstudy213/t2s-melotts-vietnamese-vits2",
+  "title": "T2S MeloTTS Vietnamese VITS2",
   "code_file": "melo_tts_vietnamese.ipynb",
   "language": "python",
   "kernel_type": "notebook",
